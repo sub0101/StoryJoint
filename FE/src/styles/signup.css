@@ -1,0 +1,69 @@
+/* SignupPage.css */
+.signupPageContainer {
+  max-width: 400px; /* Wider form */
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signupPageForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupPageTitle {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.signupPageField {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.signupPageInput {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+}
+
+.signupPageInput::placeholder {
+  color: #bbb;
+}
+
+.signupPageInput:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.signupPageButton {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px; /* Rounded edges */
+  background: linear-gradient(135deg, #6e8efb, #a777e3); /* Gradient background */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease;
+}
+
+.signupPageButton:hover {
+  background: linear-gradient(135deg, #a777e3, #6e8efb); /* Inverted gradient on hover */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.signupPageButton:active {
+  transform: translateY(1px); /* Depressed look on click */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Smaller shadow on click */
+}

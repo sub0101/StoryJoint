@@ -1,0 +1,23 @@
+/* App.css */
+.image-container img {
+    transition: filter 0.3s, opacity 0.3s;
+    border-radius: 0.75rem; /* Add rounded corners */
+  }
+  
+  .image-container:hover img {
+    filter: blur(0);
+    opacity: 1;
+  }
+  
+  .image-container:hover ~ .image-container img,
+  .image-container:hover ~ .image-container:hover img,
+  .image-container img:hover {
+    filter: blur(5px);
+    opacity: 0.5;
+  }
+  
+  .image-container:hover img {
+    filter: blur(0);
+    opacity: 1;
+  }
+  

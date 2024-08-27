@@ -1,0 +1,38 @@
+/* Home Blog Post Card Styles */
+.homeblog-container {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .homeblog-post {
+    background-color: #fff;
+  }
+  
+  .homeblog-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .homeblog-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .hometitle {
+    color: #333;
+  }
+  
+  .homesummary {
+    color: #555;
+  }
+  
+  .homedate {
+    font-style: italic;
+  }
+  
+  .homeread-more {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hover effect for 'Read More' button */
+  .homeread-more:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
